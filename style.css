@@ -1,15 +1,15 @@
 :root {
-  --bg: #0b0f19;
-  --bg-alt: #10162a;
-  --surface: #141b2f;
-  --text: #eef1fb;
-  --text-muted: #9aa3c0;
-  --primary: #7c5cff;
-  --primary-light: #a78bfa;
-  --accent: #22d3ee;
-  --border: rgba(255, 255, 255, 0.08);
+  --bg: #ffffff;
+  --bg-alt: #fbf1f3;
+  --surface: #ffffff;
+  --text: #2b0f18;
+  --text-muted: #7d5760;
+  --primary: #7a1030;
+  --primary-light: #a3324f;
+  --accent: #4d0a1e;
+  --border: rgba(122, 16, 48, 0.18);
   --radius: 16px;
-  --shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+  --shadow: 0 20px 60px -20px rgba(122, 16, 48, 0.3);
   --font-heading: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
 }
@@ -58,7 +58,7 @@ ul, ol {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(14px);
-  background: rgba(11, 15, 25, 0.75);
+  background: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid var(--border);
 }
 
@@ -160,8 +160,8 @@ ul, ol {
   border: 1px solid var(--border);
   border-radius: 999px;
   font-size: 0.8rem;
-  color: var(--accent);
-  background: rgba(34, 211, 238, 0.08);
+  color: var(--primary);
+  background: rgba(122, 16, 48, 0.08);
   margin-bottom: 1.5rem;
 }
 
@@ -220,12 +220,12 @@ ul, ol {
 .btn--primary {
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
   color: #fff;
-  box-shadow: 0 12px 30px -10px rgba(124, 92, 255, 0.6);
+  box-shadow: 0 12px 30px -10px rgba(122, 16, 48, 0.4);
 }
 
 .btn--primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 34px -8px rgba(124, 92, 255, 0.75);
+  box-shadow: 0 16px 34px -8px rgba(122, 16, 48, 0.5);
 }
 
 .btn--ghost {
@@ -373,7 +373,7 @@ ul, ol {
   justify-content: center;
   height: 260px;
   border-radius: var(--radius);
-  background: linear-gradient(145deg, rgba(124, 92, 255, 0.18), rgba(34, 211, 238, 0.1));
+  background: linear-gradient(145deg, rgba(122, 16, 48, 0.14), rgba(122, 16, 48, 0.04));
   border: 1px solid var(--border);
 }
 
@@ -438,7 +438,7 @@ ul, ol {
 
 .field input,
 .field textarea {
-  background: var(--bg);
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 0.75rem 0.9rem;
